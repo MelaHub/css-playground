@@ -73,3 +73,15 @@
     left: 20vmin;
     box-shadow: 14vmin 0;
 }
+
+
+.eyes::before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    border-radius: 50%;
+    left: 2vmin;
+    box-shadow: 14vmin 0 white;
+}
