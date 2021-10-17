@@ -22,34 +22,37 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    transform: rotate(-10deg);
 }
 
 .planet-bottom {
-    position: relative;
+    position: absolute;
     border: 0.5vmin solid black;
     width: 60vmin;
-    height: 40vmin;
-    border-radius: 50%;
+    height: 30vmin;
+    border-bottom-left-radius: 50% 75%;
+    border-bottom-right-radius: 50% 75%;
+    border-top-right-radius: 50% 25%;
+    border-top-left-radius: 50% 25%;
     box-sizing: border-box;
     background: #4c4bb6;
-    transform: rotate(-8deg);
+    transform: translate(0, 5vmin);
 }
 
 .rings {
-    position: relative;
+    position: absolute;
     border: 0.5vmin solid black;
     width: 80vmin;
     height: 20vmin;
     border-radius: 50%;
     box-sizing: border-box;
     background: #c9d345;
-    transform: translate(-10vmin, 10vmin) rotate(-8deg);
 }
 
 .planet-top {
     position: absolute;
     border: 0.5vmin solid black;
-    width: 60vmin;
+    width: 55vmin;
     height: 25vmin;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
@@ -57,5 +60,73 @@
     border-top-left-radius: 50% 75%;
     box-sizing: border-box;
     background: #4c4bb6;
-    transform: translate(0vmin, -20vmin) rotate(-8deg);
+    transform: translate(0, -8vmin);
+}
+
+
+.eyes {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: #000;
+    border-radius: 50%;
+    top: 21vmin;
+    left: 20vmin;
+    box-shadow: 14vmin 0;
+}
+
+
+.eyes::before {
+    content: "";
+    position: absolute;
+    background: white;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    border-radius: 50%;
+    left: 2vmin;
+    box-shadow: 14vmin 0 white;
+}
+
+
+.mouth {
+    position: absolute;
+    width: 4vmin;
+    height: 2vmin;
+    border: 0.7vmin solid black;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top: 0;
+    top: 22vmin;
+    left: 26.5vmin;
+}
+
+.frekles1 {
+    position: absolute;
+    width: 5vmin;
+    height: 5vmin;
+    background: #9e9de2;
+    border-radius: 50%;
+    top: 8vmin;
+    left: 5vmin;
+}
+
+.frekles2 {
+    position: absolute;
+    width: 3vmin;
+    height: 3vmin;
+    background: #9e9de2;
+    border-radius: 50%;
+    top: 10vmin;
+    left: 11vmin;
+}
+
+
+.frekles3 {
+    position: absolute;
+    width: 1.5vmin;
+    height: 1.5vmin;
+    background: #9e9de2;
+    border-radius: 50%;
+    top: 13vmin;
+    left: 9.5vmin;
 }
