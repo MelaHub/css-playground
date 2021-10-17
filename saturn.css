@@ -34,3 +34,14 @@
     background: #4c4bb6;
     transform: rotate(-8deg);
 }
+
+.rings {
+    position: relative;
+    border: 0.5vmin solid black;
+    width: 80vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #c9d345;
+    transform: translate(-10vmin, 10vmin) rotate(-8deg);
+}
