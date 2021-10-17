@@ -32,4 +32,5 @@
     border-radius: 50%;
     box-sizing: border-box;
     background: #4c4bb6;
+    transform: rotate(-8deg);
 }
