@@ -29,10 +29,12 @@
     border: 0.5vmin solid black;
     width: 60vmin;
     height: 40vmin;
-    border-radius: 50%;
+    border-bottom-left-radius: 50% 75%;
+    border-bottom-right-radius: 50% 75%;
+    border-top-right-radius: 50% 25%;
+    border-top-left-radius: 50% 25%;
     box-sizing: border-box;
     background: #4c4bb6;
-    transform: rotate(-8deg);
 }
 
 .rings {
@@ -43,13 +45,13 @@
     border-radius: 50%;
     box-sizing: border-box;
     background: #c9d345;
-    transform: translate(-10vmin, 10vmin) rotate(-8deg);
+    transform: translate(-10vmin, 10vmin);
 }
 
 .planet-top {
-    position: absolute;
+    position: relative;
     border: 0.5vmin solid black;
-    width: 60vmin;
+    width: 55vmin;
     height: 25vmin;
     border-bottom-left-radius: 50% 25%;
     border-bottom-right-radius: 50% 25%;
@@ -57,5 +59,6 @@
     border-top-left-radius: 50% 75%;
     box-sizing: border-box;
     background: #4c4bb6;
-    transform: translate(0vmin, -20vmin) rotate(-8deg);
+    transform: translate(2.5vmin, -20vmin);
+    
 }
