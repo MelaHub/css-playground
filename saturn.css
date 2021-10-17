@@ -61,3 +61,15 @@
     background: #4c4bb6;
     transform: translate(0, -8vmin);
 }
+
+
+.eyes {
+    position: absolute;
+    width: 4vmin;
+    height: 4vmin;
+    background: #000;
+    border-radius: 50%;
+    top: 21vmin;
+    left: 20vmin;
+    box-shadow: 14vmin 0;
+}
