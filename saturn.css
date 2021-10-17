@@ -24,7 +24,7 @@
     flex-direction: column;
 }
 
-.planet {
+.planet-bottom {
     position: relative;
     border: 0.5vmin solid black;
     width: 60vmin;
@@ -44,4 +44,18 @@
     box-sizing: border-box;
     background: #c9d345;
     transform: translate(-10vmin, 10vmin) rotate(-8deg);
+}
+
+.planet-top {
+    position: absolute;
+    border: 0.5vmin solid black;
+    width: 60vmin;
+    height: 25vmin;
+    border-bottom-left-radius: 50% 25%;
+    border-bottom-right-radius: 50% 25%;
+    border-top-right-radius: 50% 75%;
+    border-top-left-radius: 50% 75%;
+    box-sizing: border-box;
+    background: #4c4bb6;
+    transform: translate(0vmin, -20vmin) rotate(-8deg);
 }
